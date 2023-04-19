@@ -1,0 +1,48 @@
+body{
+    background-color: #161616;
+}
+.summary{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 50px;
+    .image{
+        img{
+            width: 60vh;
+        }
+    }
+    .details{
+   
+        margin: 0px 30px;
+        h2{
+            color: white;
+            font-weight: bold;
+            font-size: 4.5rem;
+        }
+        div{
+            font-size: 1.6rem;
+            color: #afafaf;
+
+            
+        }
+        hr{
+            border-bottom: 2px solid white;
+        }
+        button{
+            margin: 10px 10px;
+            background-color: #161616;
+            color: rgb(255, 255, 255);
+            border-radius: 12px;
+            border: 2px solid rgb(255, 255, 255);
+            padding: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+
+    }
+
+}
